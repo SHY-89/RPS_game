@@ -50,10 +50,15 @@ def game_start():
     print(f"승 : {game_save['win']}   패 : {game_save['lose']}   무 : {game_save['draw']}   승률 : {vag}%")
 
 
-print("가위 바위 보 게임 START")
-print("가위 바위 보 게임 Rule")
-print("1. 사용자는 가위, 바위, 보, 만 입력 가능 합니다.")
-print("2. 사용자는 게임이 끝난 뒤 y, n 만 입력 가능 합니다.")
-
+print("════════════ ೋღ 🌺 ღೋ ════════════\n")
+print("\t\t 가위 바위 보 게임 START\n")
+print("════════════ ೋღ 🌺 ღೋ ════════════\n")
+print("╔══════*.·:·.☽✧    ✦    ✧☾.·:·.*══════╗")
+print("\t\t\t\tGAME RULE\n")
+print("     1. 사용자는 가위, 바위, 보, 만 입력")
+print("            가능 합니다.\n")
+print("     2. 사용자는 게임이 끝난 뒤 y, n 만")
+print("            입력 가능 합니다.\n")
+print("╚══════*.·:·.☽✧    ✦    ✧☾.·:·.*══════╝")
 print("게임 Rule을 이해 하셨다면 이제 게임을 즐겨주세요!!!")
 game_start()
