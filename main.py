@@ -40,9 +40,11 @@ def game_start():
                 game_save['win'] += 1
 
         y_n = input("다시 하시겠습니까? (y/n):")
+        y_n = y_n.lower()
         while y_n != 'y' and y_n != 'n':
             print("잘 못 입력 하였습니다. 다시 입력 하세요.")
             y_n = input("다시 하시겠습니까? (y/n):")
+            y_n = y_n.lower()
         if y_n == 'n':
             game_status = False
 
